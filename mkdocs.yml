@@ -27,7 +27,7 @@ nav:
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
 theme:
-    name: windmill # autres thèmes : https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
+    name: material # autres thèmes : https://github.com/mkdocs/mkdocs/wiki/MkDocs-Themes
     custom_dir: overrides #  
     font: false  # RGPD ; pas de fonte Google
     language: fr # français
@@ -39,14 +39,14 @@ theme:
     # Palettes de couleurs jour/nuit, cf : https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
     palette: 
       - scheme: default # nom du thème clair
-        primary: lime # couleur primaire des titres, des liens, ..., à prendre dans la liste
-        accent: amber # couleur d'accentuation au survol des boutons, desliens, ..., à prendre dans la liste
+        primary: purple # couleur primaire des titres, des liens, ..., à prendre dans la liste
+        accent: deep purple # couleur d'accentuation au survol des boutons, desliens, ..., à prendre dans la liste
         toggle: # définition du bouton pour switcher de palette
           icon: material/weather-sunny # apparence
           name: Basculer en mode sombre # message
       - scheme: slate # nom du thème sombre
-        primary: amber
-        accent: lime
+        primary: deep purple
+        accent: dark
         toggle:
           icon: material/weather-night
           name: Basculer en mode clair
