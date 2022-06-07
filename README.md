@@ -1,4 +1,4 @@
-# mon_premier_stite
+# mon_premier_site
 Mon premier site depuis un dépôt avec material pour mkdocs.
 
 Ce site sera bientôt visible à l'adresse : https://Naellll.github.io/mon_premier_site/
