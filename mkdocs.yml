@@ -45,8 +45,8 @@ theme:
           icon: material/weather-sunny # apparence
           name: Basculer en mode sombre # message
       - scheme: slate # nom du thème sombre
-        primary: deep purple
-        accent: dark
+        primary: dark
+        accent: deep purple
         toggle:
           icon: material/weather-night
           name: Basculer en mode clair
